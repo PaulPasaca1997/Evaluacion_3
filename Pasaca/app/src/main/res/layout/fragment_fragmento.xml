@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".Fragmento">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtFragmento1"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Horas"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/txtFragmento2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Precio Hora" />
+
+        <Button
+            android:id="@+id/btnFragmento"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Calcular" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
